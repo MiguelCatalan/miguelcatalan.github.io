@@ -15,6 +15,16 @@
 
   a {
     color: #505050;
+    text-decoration: none !important;
+
+    .sections {
+      font-size: 55%;
+      letter-spacing: 0;
+      margin-left: 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #727272;
+    }
   }
 
   small {
