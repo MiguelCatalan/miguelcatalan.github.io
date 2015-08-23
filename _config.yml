@@ -5,11 +5,11 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Miguel Catalan
+tagline:             hi there!
+url:
 paginate:            1
-baseurl:             "http://MiguelCatalan.github.io/poole/"
+baseurl:             "http://MiguelCatalan.github.io/poole"
 
 # Assets
 #
