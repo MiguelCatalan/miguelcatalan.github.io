@@ -16,15 +16,6 @@
   a {
     color: #505050;
     text-decoration: none !important;
-
-    .sections {
-      font-size: 55%;
-      letter-spacing: 0;
-      margin-left: 30px;
-      text-transform: uppercase;
-      font-weight: bold;
-      color: #727272;
-    }
   }
 
   small {
@@ -32,5 +23,14 @@
     font-weight: 400;
     color: #c0c0c0;
     letter-spacing: 0;
+  }
+
+  .sections {
+    font-size: 55%;
+    letter-spacing: 0;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #727272;
   }
 }
