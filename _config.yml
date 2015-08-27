@@ -7,9 +7,9 @@ relative_permalinks: true
 # Setup
 title:               Miguel Catalan
 tagline:             hi there!
-url:                 http://miguelcatalan.info/
+url:
 paginate:            1
-baseurl:             "http://miguelcatalan.info/"
+baseurl:             "http://miguelcatalan.github.io/"
 
 # Assets
 #
