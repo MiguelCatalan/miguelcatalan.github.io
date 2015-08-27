@@ -9,7 +9,7 @@ title:               Miguel Catalan
 tagline:             hi there!
 url:
 paginate:            1
-baseurl:             "http://miguelcatalan.github.io/"
+baseurl:             "http://miguelcatalan.github.io"
 
 # Assets
 #
@@ -27,4 +27,4 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/MiguelCatalan/poole
+  repo:              https://github.com/MiguelCatalan/miguelcatalan.github.io/
