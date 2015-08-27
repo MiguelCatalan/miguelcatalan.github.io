@@ -7,9 +7,9 @@ relative_permalinks: true
 # Setup
 title:               Miguel Catalan
 tagline:             hi there!
-url:
+url:                 http://miguelcatalan.info/
 paginate:            1
-baseurl:             "http://MiguelCatalan.github.io/poole"
+baseurl:             "http://miguelcatalan.info/"
 
 # Assets
 #
