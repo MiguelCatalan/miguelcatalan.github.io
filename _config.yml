@@ -5,11 +5,19 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
+<<<<<<< HEAD
 title:               Miguel Catalan
 tagline:             hi there!
 url:
 paginate:            1
 baseurl:             "http://miguelcatalan.github.io/"
+=======
+title:               Poole
+tagline:             The Jekyll Butler
+url:                 http://miguelCatalan.github.io/
+paginate:            1
+baseurl:             "http://miguelCatalan.github.io/"
+>>>>>>> c30d0b24a6ef8c0642bc404a7a762bff5faeb261
 
 # Assets
 #
