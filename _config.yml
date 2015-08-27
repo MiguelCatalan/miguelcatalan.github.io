@@ -9,7 +9,7 @@ title:               Miguel Catalan
 tagline:             hi there!
 url:
 paginate:            1
-baseurl:             "http://miguelcatalan.github.io/"
+baseurl:             "http://miguelcatalan.github.io"
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
