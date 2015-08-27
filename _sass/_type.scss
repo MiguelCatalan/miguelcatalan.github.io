@@ -3,9 +3,10 @@
 // Headings, body text, lists, and other misc typographic elements.
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
+  font-family: "proxima-nova-soft", Helvetica, Arial, sans-serif;
+  margin-bottom: .1rem;
   font-weight: bold;
-  line-height: 1.25;
+  line-height: 1.65;
   color: #313131;
   text-rendering: optimizeLegibility;
 }
