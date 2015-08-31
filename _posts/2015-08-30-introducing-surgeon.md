@@ -14,7 +14,7 @@ One of the new routines I impose myself it is to divide the values in smaller/th
 
 What I want to achieve with that? You may ask. Well, be more organized, avoid wasting time searching in a huge strings file to change one single coma are two good reasons to begin.
 
-The problem? Simple, when you want to translate your app for the first time you have too many files. But the thing get a lot wort from this point. Imagine you add a new string in each string file, it is too hard to keep tracking on every single file.
+The problem? Simple, when you want to translate your app for the first time you have too many files. But the thing get a lot worst from this point. Imagine you add a new string in each string file, it is too hard to keep tracking on every single file.
 
 This is why I developed Surgeon. Ok also I wanted to take a shot in Python, so finally I have found my excuse.
 
