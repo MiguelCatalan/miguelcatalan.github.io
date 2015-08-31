@@ -43,6 +43,4 @@ Easy isn't it?
 Pull requests are more than welcome. I am not an expert in Python so lets put this newbie surgeon to the top of the wall of fame.
 
 ## Download
-**Surgeon** is  hosted with GitHub. Head to the <a href="https://github.com/MiguelCatalan/Surgeon">GitHub repository</a> for downloads, bug reports, and features requests.
-
-**Thanks!**
+**Surgeon** is  hosted with GitHub. Head to the <a href="https://github.com/MiguelCatalan/Surgeon">GitHub repository</a> for downloads, bug reports, and features requests.<span class="blinking-cursor-post">|</span>
