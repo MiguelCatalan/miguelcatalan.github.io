@@ -1,29 +1,27 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
-
-# Setup
-title:               Miguel Catalan
-tagline:             hi there!
-url:
-paginate:            1
+# Site settings
 baseurl:             "http://miguelcatalan.github.io"
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+url:
+header-img:          img/main.jpg
 
-# About/contact
-author:
-  name:              Miguel Catalan Bañuls
-  url:               https://twitter.com/mcatalanb
-  email:             miguel.catalan.banuls@gmail.com
+# Metadata
+tagline:             hi there!
+title:               Miguel Catalan
+email: miguel.catalan.banuls@gmail.com
+copyright_name: Miguel Catalan
+description: "Write your site description here. It will be used as your sites meta description as well!"
 
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/MiguelCatalan/miguelcatalan.github.io/
+# Social
+twitter_username: mcatalanb
+github_username:  MiguelCatalan
+facebook_username:  miguel.catalan
+email_username:  miguel.catalan.banuls@gmail.com
+stackoverflow_link: http://stackoverflow.com/users/1994530/miguelcatalan
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 2
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]

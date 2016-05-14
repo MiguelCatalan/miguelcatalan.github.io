@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introducing Surgeon
+header-img: "img/surgeon.jpg"
 comments: true
 tags:
 - Android
