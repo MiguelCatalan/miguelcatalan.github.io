@@ -1,0 +1,70 @@
+<!-- Navigation -->
+<!-- {% if page.header-img %}{
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+}{% else %}{
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top navbar-inverse">
+}{% endif %} -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            {% if page.header-img %}
+                <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            {% else %}
+                <a class="navbar-brand navbar-inverted" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            {% endif %}
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            {% if page.header-img %}
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="nav" href="/">About</a>
+
+                    </li>
+                    {% for page in site.pages %}
+                    {% if page.title %}
+                    {% if page.url != '/404.html' %}
+                    {% if page.url != '/contact/' %}
+                    <li>
+                        <a class="nav" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+
+                    </li>
+                    {% endif %}
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+            {% else %}
+                <ul class="nav navbar-nav navbar-right navbar-inverted">
+                    <li>
+                        <a class="navbar-inverted" href="/">About</a>
+
+                    </li>
+                    {% for page in site.pages %}
+                    {% if page.title %}
+                    {% if page.url != '/404.html' %}
+                    {% if page.url != '/contact/' %}
+                    <li>
+                        <a class="navbar-inverted" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+
+                    </li>
+                    {% endif %}
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+            {% endif %}
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
