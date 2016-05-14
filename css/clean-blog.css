@@ -26,13 +26,6 @@ html, body {
     padding: 0
 }
 
-html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.65;
-    text-align: justify
-}
-
 @media (min-width: 38em) {
     html {
         font-size: 22px
@@ -48,6 +41,7 @@ body {
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
     font-size: 22px;
     line-height: 1.65;
     text-align: justify;
