@@ -21,8 +21,8 @@ It was a tough decision, believe me, specially when precisely the company partne
 
 I begun as a simply Android developer writing shitty code to become the head of the innovation department in my third month up to end as a Technical Lead being the safe net of every tech team in less than a year. I never asked for those promotions, but the hell I busted my ass to fill the shoes in those positions.
 
-When one of those partners, contacts your new company just to tell them they hired *one hell of a professional, one os the best they have had* to quote some lines… says much of him, and his company.
+When one of those partners, contacts your new company just to tell them they hired *one hell of a professional, one fs the best they have had* to quote some lines… says much of him, and his company.
 
 I can’t thank them enough for all the trust, the help and the opportunities I have had in Avantgarde. I’m sure we will stay in contact.
 
-### So long and thank you for the fish
+### So long and thanks for all the fish
